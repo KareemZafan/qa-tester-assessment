@@ -1,0 +1,73 @@
+{
+  "id": "env-qa-assessment",
+  "name": "QA Assessment — Auth & Coins",
+  "values": [
+    {
+      "key": "base_url",
+      "value": "https://api.example.com",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "email",
+      "value": "qa@example.com",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "password",
+      "value": "password",
+      "type": "secret",
+      "enabled": true
+    },
+    {
+      "key": "auth_token",
+      "value": "",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "user_id",
+      "value": "",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "room_id",
+      "value": "12345",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "gift_id",
+      "value": "7",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "pre_gift_balance",
+      "value": "",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "post_gift_balance",
+      "value": "",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "transaction_id",
+      "value": "",
+      "type": "default",
+      "enabled": true
+    },
+    {
+      "key": "idempotency_key",
+      "value": "",
+      "type": "default",
+      "enabled": true
+    }
+  ],
+  "_postman_variable_scope": "environment"
+}
